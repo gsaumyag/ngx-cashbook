@@ -1,0 +1,38 @@
+<div class="container my-cashbook">
+  <h1>Ngx - My Cashbook</h1>
+  <div class="total">
+    Total : {{total}}
+  </div>
+  <div class="transaction" *ngFor="let record of records">
+      <div class="entry">
+        added {{record.timestamp}}
+        <h1>{{record.title}}</h1>
+      </div>
+      <div *ngIf="record.type==1" class="entry in">
+        <div class="transaction-amount">{{record.amount}}</div>
+      </div>
+      <div *ngIf="record.type==0" class="entry out">
+        <div class="transaction-amount">{{record.amount}}</div>
+      </div>
+  </div>
+  <input type="number" id="amount" class="input-amount" [(ngModel)]="inputAmount">
+  <div class="action-group">
+    <button id="in" class="green" (click)="cashIn()">IN</button>
+    <button id="out" class="red" (click)="cashOut()">OUT</button>
+  </div>
+</div>
+<div class="model" *ngIf="showModel">
+  <div class="model-content">
+    Enter Title
+    <input type="text" [(ngModel)]="inputTitle">
+    <br>
+    Enter Amount
+    <textarea name="" id="" cols="50" rows="10" [(ngModel)]="inputAmount"></textarea>
+    <br>
+    <button id="close" class="close-btn" (click)="showModel=false;">X</button>
+    <button id="in" class="green-btn" (click)="cashIn()" [disabled]="inputAmount<=0">IN</button>
+    <br>
+    <button id="out" class="red-btn" (click)="cashOut()" [disabled]="inputAmount<=0">OUT</button>
+  </div>
+</div>
+

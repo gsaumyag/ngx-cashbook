@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 89.0.4389.82 (Windows 10)" package="" timestamp="2021-03-27T15:27:49" id="0" hostname="SAUMSAHA-ECHYJ" tests="5" errors="0" failures="0" time="0.317">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should display Ngx - My Cashbook" time="0.182" classname="Chrome_89_0_4389_82_(Windows_10).AppComponent"/>
+  <testcase name="AppComponent should create new entry for cashout" time="0.059" classname="Chrome_89_0_4389_82_(Windows_10).AppComponent"/>
+  <testcase name="AppComponent should create new entry for cashin" time="0.042" classname="Chrome_89_0_4389_82_(Windows_10).AppComponent"/>
+  <testcase name="AppComponent should have amount input" time="0.023" classname="Chrome_89_0_4389_82_(Windows_10).AppComponent"/>
+  <testcase name="AppComponent should display total" time="0.011" classname="Chrome_89_0_4389_82_(Windows_10).AppComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

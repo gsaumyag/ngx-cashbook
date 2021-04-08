@@ -1,0 +1,17 @@
+result-xml
+
+Dockerfile
+
+coverage
+
+.git
+
+*.zip
+
+
+empty-state
+
+
+src/app/app.component.html
+
+src/app/app.component.ts

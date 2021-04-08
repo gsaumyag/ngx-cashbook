@@ -1,0 +1,68 @@
+Linting "ngx-cashbook"...
+/home/surya/Desktop/workspace/skillenza/ngx-cashbook/src/app/app.component.spec.ts:14:7
+ERROR: 14:7   variable-name             variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+ERROR: 15:7   variable-name             variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+ERROR: 21:6   semicolon                 Missing semicolon
+ERROR: 43:38  quotemark                 " should be '
+
+/home/surya/Desktop/workspace/skillenza/ngx-cashbook/src/app/app.component.ts:5:8
+ERROR: 5:8    ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 5:14   semicolon                 Missing semicolon
+ERROR: 6:10   ban-types                 Don't use 'String' as a type. Avoid using the `String` type. Did you mean `string`?
+ERROR: 6:16   semicolon                 Missing semicolon
+ERROR: 7:18   semicolon                 Missing semicolon
+ERROR: 8:9    ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 8:15   semicolon                 Missing semicolon
+ERROR: 9:11   ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 9:17   semicolon                 Missing semicolon
+ERROR: 13:11  ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 13:21  semicolon                 Missing semicolon
+ERROR: 15:20  semicolon                 Missing semicolon
+ERROR: 17:17  semicolon                 Missing semicolon
+ERROR: 21:9   prefer-const              Identifier 'sample_cashin' is never reassigned; use 'const' instead of 'let'.
+ERROR: 21:9   variable-name             variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+ERROR: 23:14  quotemark                 " should be '
+ERROR: 27:6   semicolon                 Missing semicolon
+ERROR: 29:9   prefer-const              Identifier 'sample_cashout' is never reassigned; use 'const' instead of 'let'.
+ERROR: 29:9   variable-name             variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+ERROR: 31:14  quotemark                 " should be '
+ERROR: 35:6   semicolon                 Missing semicolon
+ERROR: 37:28  semicolon                 Missing semicolon
+ERROR: 38:29  semicolon                 Missing semicolon
+ERROR: 41:3   typedef                   expected call-signature: 'add' to have a typedef
+ERROR: 42:11  no-string-literal         object access via string literals is disallowed
+ERROR: 42:11  quotemark                 " should be '
+ERROR: 42:38  whitespace                missing whitespace
+ERROR: 42:39  whitespace                missing whitespace
+ERROR: 42:40  semicolon                 Missing semicolon
+ERROR: 43:29  semicolon                 Missing semicolon
+ERROR: 47:3   typedef                   expected call-signature: 'cal' to have a typedef
+ERROR: 48:19  semicolon                 Missing semicolon
+ERROR: 49:10  no-var-keyword            Forbidden 'var' keyword, use 'let' or 'const' instead
+ERROR: 49:14  prefer-const              Identifier 'e' is never reassigned; use 'const' instead of 'var'.
+ERROR: 50:17  triple-equals             == should be ===
+ERROR: 50:17  whitespace                missing whitespace
+ERROR: 50:19  whitespace                missing whitespace
+ERROR: 51:31  semicolon                 Missing semicolon
+ERROR: 53:31  semicolon                 Missing semicolon
+ERROR: 68:11  ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 68:21  semicolon                 Missing semicolon
+ERROR: 69:20  semicolon                 Missing semicolon
+ERROR: 70:27  semicolon                 Missing semicolon
+ERROR: 71:10  ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 71:20  semicolon                 Missing semicolon
+ERROR: 74:35  semicolon                 Missing semicolon
+ERROR: 75:27  semicolon                 Missing semicolon
+ERROR: 76:36  semicolon                 Missing semicolon
+ERROR: 79:3   typedef                   expected call-signature: 'add' to have a typedef
+ERROR: 79:15  ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 79:29  ban-types                 Don't use 'Number' as a type. Avoid using the `Number` type. Did you mean `number`?
+ERROR: 80:9   prefer-const              Identifier 'entry' is never reassigned; use 'const' instead of 'let'.
+ERROR: 81:14  quotemark                 " should be '
+ERROR: 83:7   object-literal-shorthand  Expected property shorthand in object literal ('{type}').
+ERROR: 84:7   object-literal-shorthand  Expected property shorthand in object literal ('{amount}').
+ERROR: 85:6   semicolon                 Missing semicolon
+ERROR: 86:28  semicolon                 Missing semicolon
+ERROR: 87:20  semicolon                 Missing semicolon
+ERROR: 88:36  semicolon                 Missing semicolon
+
